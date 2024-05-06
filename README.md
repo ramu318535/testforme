@@ -11,7 +11,8 @@ graph TD;
     G --> I[Dynamic Analysis];
     G --> J[DAST Essentials];
     G --> K[Software Composition Analysis];
-    F --> L[https://securitylabs-ce.veracode.com/login];
     F --> M[Security Labs];
     M --> N[https://securitylabs-ce.veracode.com/login];
+    F --> O[API Credentials];
+    O --> P[https://analysiscenter.veracode.com/auth/index.jsp#APICredentialsGenerator];
 ```
