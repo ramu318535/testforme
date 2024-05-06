@@ -6,4 +6,9 @@ graph TD;
     D -->|Yes| E[Redirects to https://web.analysiscenter.veracode.com/login/#/landing];
     D -->|No| C;
     E --> F[Menu items: <br> - Start Scanning <br> - Security Labs <br> - API Credentials <br> - Integrations <br> - Documentation <br> - Community];
+    F --> G[Start Scanning];
+    G --> H[Static Analysis];
+    G --> I[Dynamic Analysis];
+    G --> J[DAST Essentials];
+    G --> K[Software Composition Analysis];
 ```
