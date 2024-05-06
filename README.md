@@ -12,4 +12,6 @@ graph TD;
     G --> J[DAST Essentials];
     G --> K[Software Composition Analysis];
     F --> L[https://securitylabs-ce.veracode.com/login];
+    F --> M[Security Labs];
+    M --> N[https://securitylabs-ce.veracode.com/login];
 ```
